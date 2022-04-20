@@ -5,6 +5,8 @@
 \usepackage{makeidx}
 \usepackage{hyperref}
 \usepackage{comment}
+\usepackage{graphicx}
+\usepackage{wrapfig}
 
 \titlehead{Lebenswertes Graz}
 \title{Lebenswertes Graz -- Die Vision einer lebenswerten Zukunft für die Stadt}
@@ -32,19 +34,26 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+OPENSTREETMAP
+Die Kartenausschnitte wurden großteils aus dem Openstreetmap-Projekt übernommen.
+% TODO: Korrekte Attribution
+
+% TODO: Korrekte Attribution und Verlinkung zur Lizenz für Mapillary-Fotos 
 }
+
+\makeindex
 
 \begin{document}
 \frontmatter
 \maketitle
 \tableofcontents
-\input{../preface/vision/vision}
+\input{preface/vision/vision}
 
 \mainmatter
-\input{../main/main}
+\input{main/main}
 
 \backmatter
 \printindex
-
 
 \end{document}
